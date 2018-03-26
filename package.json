@@ -14,5 +14,8 @@
     "palindrome"
   ],
   "author": "\"Bhavik Sheth <bhavik@bhaviksheth.io> (http://www.bhaviksheth.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
