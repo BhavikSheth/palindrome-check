@@ -7,7 +7,7 @@ A Node.js package that checks whether the given input is a palindrome.
 Install the package using npm:
 
 ```shell
-  npm install test-palindrome --save
+  npm install palindrome-check --save
 ```
 
 ## Usage
