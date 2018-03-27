@@ -1,10 +1,14 @@
-function testPalindrome(string) {
+"use-strict";
+
+module.exports = function palindromeCheck(input) {
+  // special cases
+  if (Number.isNaN(input)) return false;
 
   // validate input
-  if (typeof string !== "string" || typeof number !== "number") return false;
+  if (typeof input !== "string" && typeof input !== "number") return false;
 
   // algorithm
-  let pattern = string.replace(/[^a-z0-9]/gi, "").toLowerCase();
+  let pattern = String(input).replace(/[^a-z0-9]/gi, "").toLowerCase();
   let length = pattern.length;
   let halfLength = Math.floor(length / 2);
   for (let i = 0; i < halfLength; i += 1) {
@@ -12,5 +16,3 @@ function testPalindrome(string) {
   }
   return true;
 }
-
-testPalindrome("A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal-Panama!");
