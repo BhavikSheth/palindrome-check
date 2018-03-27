@@ -20,8 +20,9 @@ Require the package and use it like so:
   console.log(checkPalindrome("")); // true
   console.log(checkPalindrome("A man, a plan, a canal: Panama."); // true
   console.log(checkPalindrome("not a palindrome")); // false
-  console.log(checkPalindrome("1234567890"); // false
-  console.log(checkPalindrome("1234321"); // true
+  console.log(checkPalindrome("tissit, tosi isot tissit.")); // true ;)
+  console.log(checkPalindrome(1234567890); // false
+  console.log(checkPalindrome(1234321); // true
 ```
 
 ## Tests
